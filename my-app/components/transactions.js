@@ -14,7 +14,7 @@ export default function Transactions(props){
                     <Text style={{fontSize:15,color:'#808080'}}>{props.genre}</Text>
                 </View>
             </View>
-            <Text style={{fontWeight:'bold',fontSize:18,color:binaryTheme?props.color:props.color?props.color:'white',position:'absolute',left:280}}>{props.rate}</Text>
+            <Text style={{fontWeight:'bold',fontSize:18,color:binaryTheme?props.color:props.color?props.color:'white',position:'absolute',marginLeft:280,right:10}}>{props.rate}</Text>
         </View>
     )
 }

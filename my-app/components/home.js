@@ -22,7 +22,7 @@ export default function Home({navigation}){
             </View>
             <Transactions company={'Apple Store'} genre={'Entertainment'} rate={'-$5,99'} image={require('../assets/apple.png')}/>
             <Transactions company={'Spotify'} genre={'Music'} rate={'-$12,99'} image={require('../assets/spotify.png')}/>
-            <Transactions company={'Money Transfer'} genre={'Entertainment'} rate={'$3,99'} image={require('../assets/moneyTransfer.png')} color={'blue'}/>
+            <Transactions company={'Money Transfer'} genre={'Entertainment'} rate={'$300'} image={require('../assets/moneyTransfer.png')} color={'blue'}/>
             <Transactions company={'Grocery'} genre={'Entertainment'} rate={'-$88'} image={require('../assets/grocery.png')} />
 
            
